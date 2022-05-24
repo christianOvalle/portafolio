@@ -1,0 +1,54 @@
+﻿@model HomeIndexViewModels
+
+
+@{
+    ViewData["Title"] = "Home Page";
+
+}
+
+<partial name ="_Presentacion" />
+
+
+<partial name="_Habilidades" />
+
+@if (Model.proyectos is not null){
+<div class ="text-center" style="padding-top: 6rem;">
+    <h1>Mis trabajos recientes</h1>
+    <P>Aqui puedes ver algunos de mis trabajos mas recientes.</P>
+</div>
+
+
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+            @foreach (var proyecto in Model.proyectos)
+            {
+               <div class="col">
+                   <div class ="card h-100">
+                       <img src="@proyecto.ImagenURL" class="card-img-top" alt="imagen proyecto"/>
+                       <div class ="card-body">
+                          <h5 class="card-title">@proyecto.Titulo</h5>
+                          <p class="card-text">@proyecto.Descripcion</p>
+                       </div>
+                       <div class="card-footer">
+
+                           <a class = "btn btn-primary" href="@proyecto.link" target = "_blank"
+                           rel = "noreferrer noopener"> Visitar</a>
+                       </div>
+
+
+            }
+
+
+
+
+
+
+    </div>
+   </div>
+
+
+
+
+
+
+}
