@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Infotep2019\\Documents\\GitHub\\practicaspoo2021\\ProyectosWeb\\Portafolio\\Portafolio\\Portafolio.csproj": {}
+    "C:\\Users\\crist\\Documents\\GitHub\\portafolio\\Portafolio\\Portafolio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Infotep2019\\Documents\\GitHub\\practicaspoo2021\\ProyectosWeb\\Portafolio\\Portafolio\\Portafolio.csproj": {
+    "C:\\Users\\crist\\Documents\\GitHub\\portafolio\\Portafolio\\Portafolio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Infotep2019\\Documents\\GitHub\\practicaspoo2021\\ProyectosWeb\\Portafolio\\Portafolio\\Portafolio.csproj",
+        "projectUniqueName": "C:\\Users\\crist\\Documents\\GitHub\\portafolio\\Portafolio\\Portafolio.csproj",
         "projectName": "Portafolio",
-        "projectPath": "C:\\Users\\Infotep2019\\Documents\\GitHub\\practicaspoo2021\\ProyectosWeb\\Portafolio\\Portafolio\\Portafolio.csproj",
-        "packagesPath": "C:\\Users\\Infotep2019\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Infotep2019\\Documents\\GitHub\\practicaspoo2021\\ProyectosWeb\\Portafolio\\Portafolio\\obj\\",
+        "projectPath": "C:\\Users\\crist\\Documents\\GitHub\\portafolio\\Portafolio\\Portafolio.csproj",
+        "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\crist\\Documents\\GitHub\\portafolio\\Portafolio\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Infotep2019\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
